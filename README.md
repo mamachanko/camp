@@ -1,5 +1,9 @@
 # Camp
 
+> To be quite frank, I am not yet convinced that a usecase for camp exists in
+the wild really. It might be utterly useless to anyone else. However, I am
+having pretty good times working on it.
+
 Camp helps you manage a set of _virtualenvs_.
 
 The use case is a set of repositories, possibly services. some of which might
@@ -7,6 +11,7 @@ share certain requirements. however, as there might be conflicting requirements
 it is not possible to put them all in the same virtualenv. As the number of
 repositories grows larger it becomes cumbersome and errorprone to maintain all
 these virtualenvs by hand.
+
 
 This is what `camp` helps with.
 
